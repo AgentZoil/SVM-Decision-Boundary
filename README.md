@@ -33,6 +33,4 @@ python svm_terrain_classifier.py
 - If `prettyPicture()` is not found, ensure `class_vis.py` is in the same directory.
 - If `makeTerrainData()` does not work, verify that `prep_terrain_data.py` is correctly implemented.
 
-## License
-This project is for educational purposes and does not have a specific license.
 
