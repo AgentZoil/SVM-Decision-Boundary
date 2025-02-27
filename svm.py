@@ -13,7 +13,7 @@ features_train, labels_train, features_test, labels_test = makeTerrainData()
 from sklearn.svm import SVC
 
 # Create an SVM classifier with a linear kernel
-clf = SVC(kernel="linear")
+clf = SVC(kernel="rbf", C=1.0)
 
 # Train the classifier on the training data
 clf.fit(features_train, labels_train)

@@ -29,8 +29,16 @@ python svm_terrain_classifier.py
 - The script prints dataset shapes and model accuracy in the console.
 - The decision boundary of the SVM classifier is displayed as a matplotlib plot.
 
+### Console Output
+```
+Training features shape: (750, 2)
+Training labels shape: (750,)
+Test features shape: (250, 2)
+Test labels shape: (250,)
+Model Accuracy: 0.92
+```
+
 ## Troubleshooting
 - If `prettyPicture()` is not found, ensure `class_vis.py` is in the same directory.
 - If `makeTerrainData()` does not work, verify that `prep_terrain_data.py` is correctly implemented.
-
 
